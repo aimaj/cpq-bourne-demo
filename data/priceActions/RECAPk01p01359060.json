@@ -1,0 +1,13 @@
+{
+  "Migration_ID__c": "RECAPk01p01359060",
+  "SBQQ__Field__c": "Discount (%)",
+  "SBQQ__Formula__c": null,
+  "SBQQ__Order__c": null,
+  "SBQQ__Rule__r": {
+    "Migration_ID__c": "RECrXjG5Qu8103760"
+  },
+  "SBQQ__SourceLookupField__c": null,
+  "SBQQ__TargetObject__c": "Quote",
+  "SBQQ__ValueField__c": null,
+  "SBQQ__Value__c": "80"
+}

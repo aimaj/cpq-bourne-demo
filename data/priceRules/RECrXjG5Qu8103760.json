@@ -1,0 +1,13 @@
+{
+  "Migration_ID__c": "RECrXjG5Qu8103760",
+  "Name": "Sample Rule 1",
+  "SBQQ__Active__c": true,
+  "SBQQ__AdvancedCondition__c": null,
+  "SBQQ__ConditionsMet__c": "All",
+  "SBQQ__ConfiguratorEvaluationEvent__c": null,
+  "SBQQ__EvaluationEvent__c": "On Calculate",
+  "SBQQ__EvaluationOrder__c": 10,
+  "SBQQ__LookupObject__c": null,
+  "SBQQ__Product__c": null,
+  "SBQQ__TargetObject__c": "Calculator"
+}

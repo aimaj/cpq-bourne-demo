@@ -1,0 +1,14 @@
+{
+  "Migration_ID__c": "RECL0DhPNx7045220",
+  "SBQQ__Field__c": "Product Code",
+  "SBQQ__FilterFormula__c": null,
+  "SBQQ__FilterType__c": "Value",
+  "SBQQ__Index__c": null,
+  "SBQQ__Object__c": "Product Option",
+  "SBQQ__Operator__c": "equals",
+  "SBQQ__Rule__r": {
+    "Migration_ID__c": "RECrXjG5Qu8103760"
+  },
+  "SBQQ__TestedFormula__c": null,
+  "SBQQ__Value__c": "PRODUCT_1"
+}
