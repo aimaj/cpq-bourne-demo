@@ -3,7 +3,7 @@
 ## Environment setup
 Prerequisites:
 - SFDX CLI installed to machine
-- Dev Hub authorised through CLI
+- Dev Hub authorised through CLI with at least 2 scratch org allocations free
 
 ## Demo
 1. Setup for Org 1
@@ -20,8 +20,8 @@ $ sfdx force:user:permset:assign -n Migration_ID_FLS -u cpq-scratch
 2. Create CPQ configuration
 3. Extract CPQ configuration
 ```bash
-mkdir data
-sfdx bourne:export -u cpq-scratch -c config/bourne-config.json -a
+$ mkdir data
+$ sfdx bourne:export -u cpq-scratch -c config/bourne-config.json -a
 ```
 4. Setup for Org 2
 ```bash
@@ -34,5 +34,5 @@ $ sfdx force:user:permset:assign -n Migration_ID_FLS -u cpq-scratch-2
 ```
 5. Import CPQ configuration
 ```bash
-sfdx bourne:import -u cpq-scratch -c config/bourne-config.json -a
+$ sfdx bourne:import -u cpq-scratch-2 -c config/bourne-config.json -a
 ```
