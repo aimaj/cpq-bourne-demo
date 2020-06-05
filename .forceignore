@@ -12,3 +12,4 @@ package.xml
 **/__tests__/**
 
 **featureParameters
+force-app/main/default/objects/SBQQ__PriceRule__c/SBQQ__PriceRule__c.object-meta.xml
